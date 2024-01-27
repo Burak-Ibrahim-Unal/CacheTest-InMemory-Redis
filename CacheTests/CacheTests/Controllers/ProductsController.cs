@@ -22,9 +22,13 @@ namespace CacheTests.Controllers
             if (!_memoryCache.TryGetValue("time", out string timeCache))
             {
                 MemoryCacheEntryOptions options = new MemoryCacheEntryOptions();
-                options.AbsoluteExpiration = DateTime.Now.AddMinutes(1);
-                options.SlidingExpiration = TimeSpan.FromSeconds(10);
+                options.AbsoluteExpiration = DateTime.Now.AddSeconds(10);
+                //options.SlidingExpiration = TimeSpan.FromSeconds(3);
                 options.Priority = CacheItemPriority.Normal;
+                options.RegisterPostEvictionCallback((key, value, reason, state) =>
+                {
+                    _memoryCache.Set("callback", $"{key} -> {value} -> {reason}");
+                });
 
                 _memoryCache.Set<string>("time", DateTime.Now.ToString(), options);
             }
@@ -35,11 +39,12 @@ namespace CacheTests.Controllers
                     Time = _memoryCache.GetOrCreate<string>("time", a =>
                     {
                         return DateTime.Now.ToString();
-                    }).ToString()},
+                    }).ToString(),
+                    CacheLog=_memoryCache.TryGetValue("callback",out string callback) ? callback : "Still in Memory"},
 
-                new Product { Id = 2,Name="Test Product 2",Time=timeCache},
-                new Product { Id = 3,Name="Test Product 3",Time=_memoryCache.Get<string>("time").ToString()},
-                new Product { Id = 4,Name="Test Product 4",Time=_memoryCache.Get<string>("time").ToString()},
+                new Product { Id = 2,Name="Test Product 2",Time=timeCache,CacheLog=_memoryCache.TryGetValue("callback",out string callback2)? callback : "Still in Memory"},
+                new Product { Id = 3,Name="Test Product 3",Time=_memoryCache.Get<string>("time").ToString(),CacheLog=_memoryCache.TryGetValue("callback",out string callback3)? callback : "Still in Memory"},
+                new Product { Id = 4,Name="Test Product 4",Time=_memoryCache.Get<string>("time").ToString(),CacheLog=_memoryCache.TryGetValue("callback",out string callback4)? callback : "Still in Memory"},
             };
 
             return Ok(products);
