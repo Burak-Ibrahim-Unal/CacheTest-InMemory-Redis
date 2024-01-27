@@ -31,7 +31,12 @@ namespace CacheTests.Controllers
 
             List<Product> products = new List<Product>
             {
-                new Product { Id = 1,Name="Test Product 1",Time=_memoryCache.Get<string>("time").ToString()},
+                new Product { Id = 1,Name="Test Product 1",
+                    Time = _memoryCache.GetOrCreate<string>("time", a =>
+                    {
+                        return DateTime.Now.ToString();
+                    }).ToString()},
+
                 new Product { Id = 2,Name="Test Product 2",Time=_memoryCache.Get<string>("time").ToString()},
                 new Product { Id = 3,Name="Test Product 3",Time=_memoryCache.Get<string>("time").ToString()},
                 new Product { Id = 4,Name="Test Product 4",Time=_memoryCache.Get<string>("time").ToString()},
