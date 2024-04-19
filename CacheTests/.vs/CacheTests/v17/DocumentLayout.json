@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\controllers\\redisproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\controllers\\redisproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedisProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\RedisProductsController.cs",
+              "RelativeDocumentMoniker": "CacheTests\\Controllers\\RedisProductsController.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\RedisProductsController.cs",
+              "RelativeToolTip": "CacheTests\\Controllers\\RedisProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:18:46.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CacheTests\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CacheTests\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T11:30:36.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CacheTests\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\WeatherForecast.cs",
+              "RelativeToolTip": "CacheTests\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T11:25:16.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CacheTests\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\appsettings.Development.json",
+              "RelativeToolTip": "CacheTests\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-27T11:25:14.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\appsettings.json",
+              "RelativeDocumentMoniker": "CacheTests\\appsettings.json",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\appsettings.json",
+              "RelativeToolTip": "CacheTests\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-27T11:25:08.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "CacheTests\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Entity\\Product.cs",
+              "RelativeToolTip": "CacheTests\\Entity\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T11:20:00.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CacheTests\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CacheTests\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T11:15:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Program.cs",
+              "RelativeDocumentMoniker": "CacheTests\\Program.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Program.cs",
+              "RelativeToolTip": "CacheTests\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T11:14:31.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
