@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\controllers\\rediswithmodelproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|solutionrelative:cachetests\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CED0E843-FF89-4E4B-818C-E372CE105AB6}|CacheTests\\CacheTests.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\cachetests\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -60,14 +60,14 @@
               "RelativeDocumentMoniker": "CacheTests\\Controllers\\RedisWithModelProductsController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\RedisWithModelProductsController.cs*",
               "RelativeToolTip": "CacheTests\\Controllers\\RedisWithModelProductsController.cs*",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwE0AAABHAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwHAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T11:40:55.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Product2.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Entity\\Product2.cs",
               "RelativeDocumentMoniker": "CacheTests\\Entity\\Product2.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RedisProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\RedisProductsController.cs",
               "RelativeDocumentMoniker": "CacheTests\\Controllers\\RedisProductsController.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "CacheTests\\Controllers\\ProductsController.cs",
@@ -132,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\appsettings.json",
               "RelativeDocumentMoniker": "CacheTests\\appsettings.json",
@@ -145,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Entity\\Product.cs",
               "RelativeDocumentMoniker": "CacheTests\\Entity\\Product.cs",
@@ -171,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Program.cs",
               "RelativeDocumentMoniker": "CacheTests\\Program.cs",

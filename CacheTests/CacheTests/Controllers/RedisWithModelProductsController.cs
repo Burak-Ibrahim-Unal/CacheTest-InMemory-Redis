@@ -88,5 +88,29 @@ namespace CacheTests.Controllers
 
             return Ok();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> SetImageRedisData()
+        {
+            DistributedCacheEntryOptions distributedCacheEntryOptions = new DistributedCacheEntryOptions
+            {
+                AbsoluteExpiration = DateTime.Now.AddMinutes(1)
+            };
+
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/image1.png");
+            byte[] byteImage = System.IO.File.ReadAllBytes(path);
+
+            await _distributedCache.SetAsync("resimTest", byteImage, distributedCacheEntryOptions);
+
+            return Ok();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetImageRedisData()
+        {
+            byte[]? byteImage = await _distributedCache.GetAsync("resimTest");
+
+            return Ok(File(byteImage, "images/png"));
+        }
     }
 }
