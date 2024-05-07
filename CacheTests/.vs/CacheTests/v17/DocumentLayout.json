@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "CacheTests\\Controllers\\RedisProductsController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\RedisProductsController.cs",
               "RelativeToolTip": "CacheTests\\Controllers\\RedisProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAC0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T12:18:46.369Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "CacheTests\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "CacheTests\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-27T11:30:36.365Z",
               "EditorCaption": ""
@@ -143,14 +143,10 @@
               "RelativeDocumentMoniker": "CacheTests\\Program.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\CacheTests\\Program.cs",
               "RelativeToolTip": "CacheTests\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-27T11:14:31.582Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
