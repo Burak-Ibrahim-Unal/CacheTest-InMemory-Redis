@@ -13,8 +13,10 @@ namespace RedisExchangeApi.Controllers
         private readonly IDatabase _db;
         private readonly IDatabase _db2;
         private readonly IDatabase _db3;
+        private readonly IDatabase _db4;
         public string redisListText = "names";
         public string redisListText2 = "hashnames";
+        public string redisListText3 = "hashsortednames";
 
         public RedisTypesController(RedisService redisService)
         {
@@ -22,6 +24,7 @@ namespace RedisExchangeApi.Controllers
             _db = _redisService.GetDb(0);
             _db2 = _redisService.GetDb(1);
             _db3 = _redisService.GetDb(2);
+            _db4 = _redisService.GetDb(3);
         }
 
         [HttpPost]
@@ -48,6 +51,7 @@ namespace RedisExchangeApi.Controllers
             return Ok();
         }
 
+        //List Start
         [HttpPost]
         public ActionResult SetRedisListValuesDb(string name)
         {
@@ -79,7 +83,9 @@ namespace RedisExchangeApi.Controllers
 
             return Ok();
         }
+        //List End
 
+        //Set Start
         [HttpPost]
         public ActionResult SetRedisSetValuesDb(string name) // unique values only
         {
@@ -112,5 +118,43 @@ namespace RedisExchangeApi.Controllers
 
             return Ok();
         }
+        //Set End
+
+        //Sorted Set Start
+        [HttpPost]
+        public ActionResult SetRedisSortedSetValuesDb(string name, int sortbyScore) // sorted unique values only
+        {
+            _db4.KeyExpire(redisListText3, DateTime.Now.AddMinutes(5));
+
+            _db4.SortedSetAdd(redisListText3, name, sortbyScore);
+
+            return Ok();
+        }
+
+        [HttpGet]
+        public ActionResult GetRedisSortedSetValuesDb()
+        {
+            HashSet<string> redisSortedHashSetList = new HashSet<string>();
+
+            if (_db4.KeyExists(redisListText3))
+            {
+                _db4.SortedSetScan(redisListText3).ToList().ForEach(x =>
+                {
+                    redisSortedHashSetList.Add(x.ToString());
+                });
+            }
+
+            return Ok(redisSortedHashSetList);
+        }
+
+        [HttpPost]
+        public ActionResult RemoveRedisSortedSetItem(string name)
+        {
+            _db4.SortedSetRemove(redisListText3, name);
+
+            return Ok();
+        }
+        //Sorted Set End
+
     }
 }
