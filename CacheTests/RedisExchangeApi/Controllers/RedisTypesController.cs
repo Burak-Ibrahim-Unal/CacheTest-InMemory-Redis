@@ -138,7 +138,14 @@ namespace RedisExchangeApi.Controllers
 
             if (_db4.KeyExists(redisListText3))
             {
-                _db4.SortedSetScan(redisListText3).ToList().ForEach(x =>
+                //1.Way - Rank and values
+                //_db4.SortedSetScan(redisListText3).ToList().ForEach(x =>
+                //{
+                //    redisSortedHashSetList.Add(x.ToString());
+                //});
+
+                //2. Way - Value only
+                _db4.SortedSetRangeByRank(redisListText3,order:Order.Descending).ToList().ForEach(x =>
                 {
                     redisSortedHashSetList.Add(x.ToString());
                 });
