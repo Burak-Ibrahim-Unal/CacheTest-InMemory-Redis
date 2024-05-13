@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RedisExample.Cache;
 using RedisExampleApi.Context;
 using RedisExampleApi.Repository;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +18,18 @@ builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseInMemoryDatabase("TestDatabase");
+});
+
+builder.Services.AddSingleton<RedisService>(serviceProvider =>
+{
+    return new RedisService(builder.Configuration["CacheOptions:Url"]);
+});
+
+builder.Services.AddSingleton<IDatabase>(serviceProvider =>
+{
+    var redisService = serviceProvider.GetRequiredService<RedisService>();
+
+    return redisService.GetDb(0);
 });
 
 var app = builder.Build();
