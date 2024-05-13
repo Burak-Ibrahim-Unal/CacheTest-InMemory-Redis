@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RedisExchangeApi.Services;
 using StackExchange.Redis;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace RedisExchangeApi.Controllers
 {
@@ -14,9 +15,11 @@ namespace RedisExchangeApi.Controllers
         private readonly IDatabase _db2;
         private readonly IDatabase _db3;
         private readonly IDatabase _db4;
+        private readonly IDatabase _db5;
         public string redisListText = "names";
         public string redisListText2 = "hashnames";
         public string redisListText3 = "hashsortednames";
+        public string hashKey { get; set; } = "redishashnames";
 
         public RedisTypesController(RedisService redisService)
         {
@@ -25,6 +28,7 @@ namespace RedisExchangeApi.Controllers
             _db2 = _redisService.GetDb(1);
             _db3 = _redisService.GetDb(2);
             _db4 = _redisService.GetDb(3);
+            _db5 = _redisService.GetDb(4);
         }
 
         [HttpPost]
@@ -145,7 +149,7 @@ namespace RedisExchangeApi.Controllers
                 //});
 
                 //2. Way - Value only
-                _db4.SortedSetRangeByRank(redisListText3,order:Order.Descending).ToList().ForEach(x =>
+                _db4.SortedSetRangeByRank(redisListText3, order: Order.Descending).ToList().ForEach(x =>
                 {
                     redisSortedHashSetList.Add(x.ToString());
                 });
@@ -163,5 +167,40 @@ namespace RedisExchangeApi.Controllers
         }
         //Sorted Set End
 
+        //Redis Hash Start
+        [HttpPost]
+        public ActionResult SetHashValuesDb(string key, string name)
+        {
+            _db5.KeyExpire(hashKey, DateTime.Now.AddMinutes(5));
+
+            _db5.HashSet(hashKey, key, name);
+
+            return Ok();
+        }
+
+        [HttpGet]
+        public ActionResult GetHashValuesDb()
+        {
+            Dictionary<string, string> redisHashList = new Dictionary<string, string>();
+
+            if (_db5.KeyExists(hashKey))
+            {
+                _db5.HashGetAll(hashKey).ToList().ForEach(x =>
+                {
+                    redisHashList.Add(x.Name, x.Value);
+                });
+            }
+
+            return Ok(redisHashList);
+        }
+
+        [HttpPost]
+        public ActionResult RemoveHashItem(string key)
+        {
+            _db5.HashDelete(hashKey, key);
+
+            return Ok();
+        }
+        //Redis Hash End
     }
 }
