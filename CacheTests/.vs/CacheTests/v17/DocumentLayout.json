@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexampleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFE2F01-CB71-4CCC-BFBC-9E74C9F4EDA4}|RedisExampleApi\\RedisExampleApi.csproj|solutionrelative:redisexampleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0537D0E-9FCC-48A0-97D2-5084519DC3B7}|RedisExchangeApi\\RedisExchangeApi.csproj|c:\\users\\burak\\desktop\\github\\cachetest-inmemory-redis\\cachetests\\redisexchangeapi\\controllers\\redistypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0537D0E-9FCC-48A0-97D2-5084519DC3B7}|RedisExchangeApi\\RedisExchangeApi.csproj|solutionrelative:redisexchangeapi\\controllers\\redistypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,24 +54,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "RedisExampleApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwCEAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:17:46.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "RedisExampleApi\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:11:51.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "RedisExampleApi\\Repository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:11:38.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Program.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Program.cs*",
+              "RelativeToolTip": "RedisExampleApi\\Program.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:02:27.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "RedisExampleApi\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:00:02.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "RedisExampleApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExampleApi\\Models\\Product.cs",
+              "RelativeToolTip": "RedisExampleApi\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:56:53.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RedisTypesController.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\Controllers\\RedisTypesController.cs",
               "RelativeDocumentMoniker": "RedisExchangeApi\\Controllers\\RedisTypesController.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\Controllers\\RedisTypesController.cs",
               "RelativeToolTip": "RedisExchangeApi\\Controllers\\RedisTypesController.cs",
-              "ViewState": "AQIAAKoAAAAAAAAAAAAUwMcAAAAbAAAA",
+              "ViewState": "AQIAALgAAAAAAAAAAAAawMkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T15:35:21.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "RedisExchangeApi.http",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\RedisExchangeApi.http",
               "RelativeDocumentMoniker": "RedisExchangeApi\\RedisExchangeApi.http",
@@ -55,11 +157,12 @@
               "RelativeToolTip": "RedisExchangeApi\\RedisExchangeApi.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-07T15:26:57.203Z"
+              "WhenOpened": "2024-05-07T15:26:57.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\Program.cs",
               "RelativeDocumentMoniker": "RedisExchangeApi\\Program.cs",
@@ -67,11 +170,12 @@
               "RelativeToolTip": "RedisExchangeApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:21:52.812Z"
+              "WhenOpened": "2024-05-07T15:21:52.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\appsettings.json",
               "RelativeDocumentMoniker": "RedisExchangeApi\\appsettings.json",
@@ -79,11 +183,12 @@
               "RelativeToolTip": "RedisExchangeApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T15:09:31.542Z"
+              "WhenOpened": "2024-05-07T15:09:31.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "RedisService.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\CacheTest-InMemory-Redis\\CacheTests\\RedisExchangeApi\\Services\\RedisService.cs",
               "RelativeDocumentMoniker": "RedisExchangeApi\\Services\\RedisService.cs",
