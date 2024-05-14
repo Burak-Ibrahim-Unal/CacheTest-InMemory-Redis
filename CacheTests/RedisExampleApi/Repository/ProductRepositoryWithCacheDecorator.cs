@@ -8,15 +8,15 @@ namespace RedisExampleApi.Repository
     public class ProductRepositoryWithCacheDecorator : IProductRepository
     {
         private readonly IProductRepository _productRepository;
-        private readonly RedisRepository _redisService;
+        private readonly RedisRepository _redisRepository;
         private readonly IDatabase _redisDb;
         private const string redisProductKey = "productsCache";
 
-        public ProductRepositoryWithCacheDecorator(RedisRepository redisService, IProductRepository productRepository)
+        public ProductRepositoryWithCacheDecorator(RedisRepository redisRepository, IProductRepository productRepository)
         {
 
-            _redisService = redisService;
-            _redisDb = _redisService.GetDb(2);
+            _redisRepository = redisRepository;
+            _redisDb = _redisRepository.GetDb(2);
             _productRepository = productRepository;
         }
         public async Task<Product> CreateAsync(Product product)
