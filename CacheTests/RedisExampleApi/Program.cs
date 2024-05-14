@@ -20,14 +20,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseInMemoryDatabase("TestDatabase");
 });
 
-builder.Services.AddSingleton<RedisService>(serviceProvider =>
+builder.Services.AddSingleton<RedisRepository>(serviceProvider =>
 {
-    return new RedisService(builder.Configuration["CacheOptions:Url"]);
+    return new RedisRepository(builder.Configuration["CacheOptions:Url"]);
 });
 
 builder.Services.AddSingleton<IDatabase>(serviceProvider =>
 {
-    var redisService = serviceProvider.GetRequiredService<RedisService>();
+    var redisService = serviceProvider.GetRequiredService<RedisRepository>();
 
     return redisService.GetDb(0);
 });
